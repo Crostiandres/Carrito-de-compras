@@ -1,0 +1,24 @@
+<html lang="es">
+<head>
+
+</button>
+<div class="offcanvas offcanvas-end p-1" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+        <h4 class=" offcanvas-title" id="offcanvasRightLabel">Carrito</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body container-fluid">
+            <table class="table row">
+                <th class="col-2">Cant.</th>
+                <th class="col-6">Producto</th>
+                <th class="col-5">Precio</th>
+                <th class="col-1">Eliminar</th>
+            </table>
+            <div id="carrito"></div>
+    </div>
+    <b class="precioTotal">Precio total: <span id="precioTotal">0</span></b>
+    <div class="botonesCarrito">
+        <button id="botonComprar" class="btn btn-success">Comprar</button>
+        <button id="botonVaciarCarrito" class="btn btn-danger">Vaciar carrito</button>
+    </div>
+</div>
